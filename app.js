@@ -169,8 +169,7 @@ yesBtn.addEventListener('click', () => {
         createConfetti();
         
         // Update heading
-        document.querySelector('h1').textContent = 'Yay! 🎉 Hope you have a good trip. Pesty and I love you very much.';
-        
+        document.querySelector('h1').textContent = 'Yay! 🎉 '
         // Hide No button
         noBtn.style.display = 'none';
         
